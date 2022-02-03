@@ -13,17 +13,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.semanticweb.owlapi.model.OWLOntologyCreationException;
 import org.semanticweb.owlapi.model.OWLOntologyStorageException;
 
-import liseda.matcha.alignment.Alignment;
-import liseda.matcha.io.ResourceManager;
-import liseda.matcha.io.alignment.owl.AlignmentIOOWL;
-import liseda.matcha.io.ontology.OntologyReader;
-import liseda.matcha.match.knowledge.DirectXRefMatcherRefs;
-import liseda.matcha.match.lexical.LexicalMatcher;
-import liseda.matcha.ontology.Ontology;
-import liseda.matcha.semantics.EntityType;
-import liseda.matcha.settings.Settings;
-import liseda.matcha.settings.StopList;
-
 public class Anchoring {
 
 	public static void main(String[] args) throws IOException, OWLOntologyCreationException, OWLOntologyStorageException {
