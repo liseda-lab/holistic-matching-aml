@@ -5,7 +5,6 @@
 *                                                                             *
 * @author Marta Silva, Daniel Faria                                           *
 ******************************************************************************/
-package liseda.matcha.io.alignment;
 
 import java.io.File;
 import java.io.FileNotFoundException;
